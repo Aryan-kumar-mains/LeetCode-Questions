@@ -96,6 +96,7 @@ class Solution{
         }
         
         TNode *root = sortedListToBSTutil(&head,n);
+        return root;
     }
 };
 
